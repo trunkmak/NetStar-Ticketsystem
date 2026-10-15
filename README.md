@@ -1,5 +1,9 @@
 # NetStar Ticketsystem
 
+![NetStar Ticketsystem: Java-Lernprojekt mit einer Prioritätsliste für Tickets #2, #5 und #1.](assets/netstar-banner.png)
+
+[![Java-Projekt prüfen](https://github.com/trunkmak/NetStar-Ticketsystem/actions/workflows/java.yml/badge.svg)](https://github.com/trunkmak/NetStar-Ticketsystem/actions/workflows/java.yml) · [Roadmap](ROADMAP.md) · [Meilensteine](https://github.com/trunkmak/NetStar-Ticketsystem/milestones) · [Offene Aufgaben](https://github.com/trunkmak/NetStar-Ticketsystem/issues)
+
 Java-Konsolenprojekt aus der Umschulung: Tickets verwalten und mit **Collections, Lambdas und Streams** auswerten. Das Repository verbindet den vorhandenen Programmstand mit einer nachvollziehbaren Lern- und Aufgabenübersicht.
 
 **Stand: 15. Oktober 2026.** Basisfunktionen und Zusatzaufgaben Z1–Z4 sind vorhanden. Teil 2 ist als Roadmap mit Issues und Meilensteinen geplant. Die fünf importierten Java-Dateien entsprechen unverändert dem lokalen IntelliJ-Projekt.
@@ -46,6 +50,14 @@ Prioritäten: **1 kritisch**, 2 hoch, 3 normal, 4 niedrig. Statuswerte: `OFFEN`,
 | `Map<String, Long>` | Stream-Auswertungen nach Kunde/Bearbeiter | `groupingBy` bildet Gruppen, `counting` liefert deren Größe als `Long`. |
 
 `HashMap` und `HashSet` garantieren keine Ausgabereihenfolge. Die PriorityQueue ist keine vollständig sortierte Liste; ihre Auswahlregel gilt beim Entnehmen mit `poll()`.
+
+![Sechs Lernbausteine: Tickets als Objekte, Collections, Prioritätsqueue, Rückgängig per Stack, Streams und Auswertung.](assets/lernbausteine.png)
+
+## Der Weg eines Tickets
+
+![Ablauf: Anlegen mit OFFEN, nach Priorität und ID einreihen, erledigen und auf den Stack legen. Undo setzt das letzte erledigte Ticket auf OFFEN und reiht es erneut in die PriorityQueue ein.](assets/ticket-ablauf.png)
+
+Das [Architekturkapitel](doku/architektur.md) erklärt die beteiligten Klassen und gemeinsam verwendeten Ticketreferenzen.
 
 ## Beispielablauf
 

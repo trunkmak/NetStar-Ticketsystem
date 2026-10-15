@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-labelledby="title desc">
+<title id="title">NetStar: streams</title><desc id="desc">Eigenes Linien-Icon zum Java-Ticketsystem.</desc>
+<g font-family="Segoe UI, Arial, sans-serif"><rect width="80" height="80" rx="20" fill="#10273d"/><g transform="translate(8 8) scale(1.0)" fill="none" stroke="#29d7ce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="color:#29d7ce"><path d="M11 18h13l10 14h19M11 46h13l10-14M11 32h14M46 25l7 7-7 7"/><circle cx="11" cy="18" r="3"/><circle cx="11" cy="32" r="3"/><circle cx="11" cy="46" r="3"/></g></g></svg>

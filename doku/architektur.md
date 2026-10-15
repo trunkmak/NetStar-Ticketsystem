@@ -1,5 +1,7 @@
 # Architektur und Datenfluss
 
+![Datenfluss: Anlegen, PriorityQueue, Erledigen und Rückgängig mit erneutem Einreihen.](../assets/ticket-ablauf.png)
+
 Das Programm hat fünf Klassen im Standardpackage. `Main` liest Eingaben und ruft Fachmethoden auf. `TicketSystem` verwaltet den Bestand, `Auswertung` liest dieselbe Bestandsliste, `Beispieldaten` stellt zehn Starttickets bereit, `Ticket` trägt die Daten.
 
 ```mermaid

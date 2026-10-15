@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+<title id="title">NetStar-Projektzeichen</title><desc id="desc">Stern auf einer dunkelblauen Ticketform.</desc>
+<g font-family="Segoe UI, Arial, sans-serif"><rect width="128" height="128" rx="32" fill="#10273d"/><g transform="translate(5 12) scale(1.84375)" fill="none" stroke="#29d7ce" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="color:#29d7ce"><path d="M12 17h40v10a6 6 0 0 0 0 12v10H12V39a6 6 0 0 0 0-12V17Z"/><path d="M40 19v5m0 7v5m0 7v4M22 27h10m-10 9h10"/></g><path d="m64 35 7 15 17 3-12 12 3 17-15-8-15 8 3-17-12-12 17-3Z" fill="#29d7ce" stroke="#10273d" stroke-width="3"/></g></svg>

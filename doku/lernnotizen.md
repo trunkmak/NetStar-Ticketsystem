@@ -1,5 +1,7 @@
 # Lernnotizen zum Ticketsystem
 
+![Die sechs Lernbausteine Tickets, Collections, Priorität, Rückgängig, Streams und Auswertung.](../assets/lernbausteine.png)
+
 Diese Notizen verdichten den [Perplexity-Lernchat](quellen/perplexity-lerndokumentation.pdf) und beziehen ihn auf die vorhandenen fünf Java-Klassen. Seitenangaben nennen die PDF-Seite. Sie beschreiben den Lernstoff, ohne die offenen Bonusaufgaben vorweg zu lösen.
 
 ## Von der Eingabe zur Suche
