@@ -10,4 +10,6 @@ Für die Aufgabenbearbeitung orientieren wir uns an den Lernvorgaben: Lambdas au
 
 Quelltext liegt in `src/`, Lernunterlagen und Protokolle in `doku/`. Generierte Klassen, IDE-Einstellungen und lokale Zugangsdaten gehören nicht ins Repository. API-Dokumentation nach Änderungen mit `scripts/javadoc.ps1` neu erzeugen.
 
+Nach einer erledigten Aufgabe den Aufgabenstatus aktualisieren und das zugehörige Issue schließen. Die Fortschrittsgrafik in der README wird aus Tabelle und Issues automatisch aktualisiert; teilweise erledigte Aufgaben zählen erst nach ihrem Abschluss zum Prozentwert.
+
 Für Fehlerberichte: Eingabe, erwartetes Ergebnis, tatsächliche Ausgabe und JDK-Version angeben. Bei neuen Funktionen zuerst die Auswirkung auf die bestehenden Menüpunkte 8 und 9 festlegen.

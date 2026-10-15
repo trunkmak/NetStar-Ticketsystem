@@ -2,6 +2,10 @@
 
 ![NetStar Ticketsystem: Java-Lernprojekt mit einer Prioritätsliste für Tickets #2, #5 und #1.](assets/netstar-banner.png)
 
+[![Aktueller Projektfortschritt mit erledigten, teilweise erledigten, offenen und blockierten Aufgaben.](https://raw.githubusercontent.com/trunkmak/NetStar-Ticketsystem/codex/progress/assets/fortschritt.svg)](ROADMAP.md)
+
+Die Fortschrittsanzeige aktualisiert sich aus dem Aufgabenstatus und den zugehörigen GitHub-Issues. Ein Klick öffnet die Roadmap.
+
 [![Java-Projekt prüfen](https://github.com/trunkmak/NetStar-Ticketsystem/actions/workflows/java.yml/badge.svg)](https://github.com/trunkmak/NetStar-Ticketsystem/actions/workflows/java.yml) · [Roadmap](ROADMAP.md) · [Meilensteine](https://github.com/trunkmak/NetStar-Ticketsystem/milestones) · [Offene Aufgaben](https://github.com/trunkmak/NetStar-Ticketsystem/issues)
 
 Java-Konsolenprojekt aus der Umschulung: Tickets verwalten und mit **Collections, Lambdas und Streams** auswerten. Das Repository verbindet den vorhandenen Programmstand mit einer nachvollziehbaren Lern- und Aufgabenübersicht.

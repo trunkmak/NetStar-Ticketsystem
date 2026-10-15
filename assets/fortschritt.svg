@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="420" viewBox="0 0 1440 420" role="img" aria-labelledby="title desc">
+<title id="title">NetStar – Projektfortschritt</title>
+<desc id="desc">19 von 27 Aufgaben erledigt (70 Prozent), 2 teilweise, 5 offen, 1 blockiert. Nur vollständig erledigte Aufgaben zählen zum Prozentwert.</desc>
+<rect width="1440" height="420" rx="24" fill="#10273d"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="40" y="51" font-size="32" fill="#f0f7fc" font-weight="700" >Projektfortschritt</text>
+<text x="40" y="83" font-size="18" fill="#a5bdce" font-weight="400" >Der aktuelle Stand der 27 Lernaufgaben</text>
+<rect x="1205" y="32" width="193" height="38" rx="19" fill="#29d7ce" fill-opacity=".1" stroke="#29d7ce" stroke-opacity=".35"/>
+<text x="1301" y="57" font-size="13" fill="#29d7ce" font-weight="700" text-anchor="middle" letter-spacing="1.5">GITHUB SYNC</text>
+<circle cx="144" cy="231" r="88" fill="none" stroke="#28445c" stroke-width="15"/>
+<circle cx="144" cy="231" r="88" fill="none" stroke="#29d7ce" stroke-width="15" stroke-linecap="round" stroke-dasharray="389.092 552.920" transform="rotate(-90 144 231)"/>
+<text x="144" y="236" font-size="48" fill="#fff" font-weight="750" text-anchor="middle">70 %</text>
+<text x="144" y="269" font-size="18" fill="#a5bdce" font-weight="400" text-anchor="middle">19 / 27 fertig</text>
+<circle cx="327" cy="136" r="6" fill="#29d7ce"/>
+<text x="344" y="144" font-size="21" fill="#dce9f2" font-weight="600" >19 erledigt</text>
+<circle cx="597" cy="136" r="6" fill="#ffbd66"/>
+<text x="614" y="144" font-size="21" fill="#dce9f2" font-weight="600" >2 teilweise</text>
+<circle cx="867" cy="136" r="6" fill="#809ab0"/>
+<text x="884" y="144" font-size="21" fill="#dce9f2" font-weight="600" >5 offen</text>
+<circle cx="1137" cy="136" r="6" fill="#f18baa"/>
+<text x="1154" y="144" font-size="21" fill="#dce9f2" font-weight="600" >1 blockiert</text>
+<rect x="320" y="171" width="1078" height="10" rx="5" fill="#28445c"/>
+<rect x="320.000" y="171" width="758.593" height="10" fill="#29d7ce"/>
+<rect x="1078.593" y="171" width="79.852" height="10" fill="#ffbd66"/>
+<rect x="1158.444" y="171" width="199.630" height="10" fill="#809ab0"/>
+<rect x="1358.074" y="171" width="39.926" height="10" fill="#f18baa"/>
+<rect x="320" y="210" width="256" height="124" rx="15" fill="#17354c" stroke="#31516a"/>
+<text x="338" y="240" font-size="20" fill="#eff7fc" font-weight="600" >Basis + Zusatz</text>
+<text x="338" y="276" font-size="28" fill="#29d7ce" font-weight="700" >17 / 17</text>
+<text x="338" y="309" font-size="14" fill="#a5bdce" font-weight="400" >A1–B7 und Z1–Z4</text>
+<rect x="594" y="210" width="256" height="124" rx="15" fill="#17354c" stroke="#31516a"/>
+<text x="612" y="240" font-size="20" fill="#eff7fc" font-weight="600" >Dokumentation</text>
+<text x="612" y="276" font-size="28" fill="#29d7ce" font-weight="700" >2 / 4</text>
+<text x="612" y="309" font-size="14" fill="#a5bdce" font-weight="400" >D1–D4 · Meilenstein 1</text>
+<rect x="868" y="210" width="256" height="124" rx="15" fill="#17354c" stroke="#31516a"/>
+<text x="886" y="240" font-size="20" fill="#eff7fc" font-weight="600" >Erweiterungen</text>
+<text x="886" y="276" font-size="28" fill="#29d7ce" font-weight="700" >0 / 4</text>
+<text x="886" y="309" font-size="14" fill="#a5bdce" font-weight="400" >E1–E4 · Meilenstein 2</text>
+<rect x="1142" y="210" width="256" height="124" rx="15" fill="#17354c" stroke="#31516a"/>
+<text x="1160" y="240" font-size="20" fill="#eff7fc" font-weight="600" >Testen</text>
+<text x="1160" y="276" font-size="28" fill="#29d7ce" font-weight="700" >0 / 2</text>
+<text x="1160" y="309" font-size="14" fill="#a5bdce" font-weight="400" >T1–T2 · Meilenstein 3</text>
+<text x="40" y="372" font-size="17" fill="#b6cbda" font-weight="400" >Basis: Aufgabenstatus · Aufgaben mit Issue: GitHub-Status</text>
+<text x="40" y="400" font-size="16" fill="#91aec3" font-weight="400" >Teilweise erledigte Aufgaben zählen noch nicht als fertig. Alle 27 Aufgaben sind gleich gewichtet.</text>
+</g></svg>

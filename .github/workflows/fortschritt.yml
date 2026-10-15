@@ -1,0 +1,54 @@
+name: Fortschrittsanzeige aktualisieren
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - doku/aufgabenstatus.md
+      - scripts/fortschritt.py
+      - .github/workflows/fortschritt.yml
+  issues:
+    types: [opened, edited, closed, reopened, labeled, unlabeled, deleted, transferred]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: read
+
+concurrency:
+  group: fortschrittsanzeige
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: GitHub-Aufgaben lesen
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+        run: gh api "repos/$REPOSITORY/issues?state=all&per_page=100" --paginate --slurp > "$RUNNER_TEMP/issues.json"
+      - name: Grafik aus Aufgabenstatus und Issues erzeugen
+        run: python3 scripts/fortschritt.py --issues-json "$RUNNER_TEMP/issues.json" --output "$RUNNER_TEMP/fortschritt.svg"
+      - name: Grafik im eigenen Zweig veröffentlichen
+        shell: bash
+        run: |
+          if git ls-remote --exit-code --heads origin codex/progress >/dev/null; then
+            git fetch origin codex/progress
+            git switch --create codex/progress FETCH_HEAD
+          else
+            git switch --orphan codex/progress
+          fi
+          mkdir -p assets
+          cp "$RUNNER_TEMP/fortschritt.svg" assets/fortschritt.svg
+          git add assets/fortschritt.svg
+          if git diff --cached --quiet; then
+            echo "Fortschrittsanzeige ist bereits aktuell."
+            exit 0
+          fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m "Fortschrittsanzeige aktualisieren"
+          git push origin HEAD:refs/heads/codex/progress
