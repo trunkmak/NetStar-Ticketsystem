@@ -60,7 +60,7 @@ Beim Ergänzen des Menüfalls trat eine Namenskollision mit `bearbeiter` auf. De
 
 Bei der Javadoc-Aufgabe habe ich die Methoden noch einmal bewusst gelesen und beschrieben. Für jede musste ich mir überlegen, welche Parameter sie erhält, was sie mit den Daten macht und welches Ergebnis sie liefert.
 
-Im Aufgabenblatt waren etwa 40 Minuten vorgesehen. Laut meinem Lernprotokoll habe ich dafür fast einen halben Schultag gebraucht. Viel Zeit ging dafür auf, mir die jeweilige Methode erneut ins Gedächtnis zu rufen, sie zu verstehen und das anschließend verständlich zu formulieren.
+Im Aufgabenblatt waren etwa 40 Minuten vorgesehen. Ich habe dafür fast einen halben Schultag gebraucht. Viel Zeit ging dafür auf, mir die jeweilige Methode erneut ins Gedächtnis zu rufen, sie zu verstehen und das anschließend verständlich zu formulieren.
 
 **Was ich dabei gelernt habe:** Dokumentieren zeigt, ob ich eine Methode wirklich erklären kann. Es geht dabei auch um Rückgabetypen und fachliche Bedeutung. Ein hilfreiches Muster ist für mich: **Eingabe – Verarbeitung – Ergebnis**. Danach lassen sich Kurzbeschreibung, `@param` und `@return` leichter formulieren.
 
@@ -68,11 +68,11 @@ Ein konkreter Fund war, dass `offeneTicketsProKunde()` zwar vorhanden war, aber 
 
 ## Wie ich mit Erklärungen und Problemen umgegangen bin
 
-Im Lernchat habe ich einzelne Begriffe und Codezeilen nachgefragt, eigene Ansätze eingebracht und diese schrittweise überprüfen lassen. Dabei ging es unter anderem um `Optional`, `test`, `pop`, Map-Werte und Javadoc-Tags. Die Unterhaltung dokumentiert sowohl richtige Ansätze als auch Verwechslungen, die anschließend aufgeklärt wurden.
+Ich habe einzelne Begriffe und Codezeilen gezielt geklärt, eigene Ansätze formuliert und sie schrittweise überprüft. Dabei ging es unter anderem um `Optional`, `test`, `pop`, Map-Werte und Javadoc-Tags. Bei Verwechslungen habe ich die Bedeutung noch einmal auf ein konkretes Ticket oder Beispiel angewendet. Die daraus gewonnenen Erklärungen stehen in den [Lernnotizen](lernnotizen.md).
 
-Beim Erzeugen der Javadoc kamen zusätzlich Werkzeugprobleme dazu: `Input length = 1`, nicht gefundenes `javadoc`, verschiedene Arbeitsverzeichnisse und Quellpfade. Im Chat wurden dazu mehrere mögliche Ursachen diskutiert. Sie sind nicht alle als tatsächliche Ursache bestätigt.
+Beim Erzeugen der Javadoc kamen zusätzlich Werkzeugprobleme dazu: `Input length = 1`, nicht gefundenes `javadoc`, verschiedene Arbeitsverzeichnisse und Quellpfade. Dabei kamen mehrere mögliche Ursachen infrage, die nicht alle als tatsächliche Ursache bestätigt wurden.
 
-**Was ich daraus mitnehme:** Eine Fehlermeldung zuerst genau lesen und dann Werkzeug, Pfade und Daten getrennt prüfen. Ein Vorschlag im Chat ist eine zu prüfende Erklärung. Bei der späteren Repository-Prüfung ließ sich Javadoc im vorhandenen Pfad erzeugen; die verbleibende Warnung betrifft den Standardkonstruktor von `TicketSystem`.
+**Was ich daraus mitnehme:** Eine Fehlermeldung zuerst genau lesen und dann Werkzeug, Pfade und Daten getrennt prüfen. Eine mögliche Erklärung muss ich mit einem konkreten Test überprüfen. Bei der späteren Repository-Prüfung ließ sich Javadoc im vorhandenen Pfad erzeugen; die verbleibende Warnung betrifft den Standardkonstruktor von `TicketSystem`.
 
 ## Meine wichtigsten Lernerfahrungen
 
@@ -110,7 +110,6 @@ Als Nächstes stehen der Abschluss von D1 und die eigene Selbsttest-Klasse im Vo
 
 - [Tagesprojekt](quellen/tagesprojekt.pdf), insbesondere Teil A/B und Z1–Z4.
 - [Bonusaufgaben](quellen/teil-2-bonusaufgaben.pdf), insbesondere D1 und die nächsten Lernaufgaben.
-- [Perplexity-Lernprotokoll](quellen/perplexity-lerndokumentation.pdf), S. 1–7 zu Suche, Optional und Menü; S. 9–18 zu Collections; S. 20–37 zu Javadoc und Reflexion; S. 37–46 zu den Werkzeugproblemen.
 - Aktueller Quellcode in [TicketSystem](../src/TicketSystem.java), [Auswertung](../src/Auswertung.java) und [Main](../src/Main.java).
 
 Weiterlesen: [Alle Aufgaben](aufgaben.md) · [Tipps und Tricks](tipps-und-tricks.md) · [Lernnotizen zu einzelnen Konzepten](lernnotizen.md).

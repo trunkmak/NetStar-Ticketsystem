@@ -1,6 +1,6 @@
 # Tipps und Tricks aus dem Projekt
 
-Diese Sammlung verbindet die Hinweise der [Aufgabenblätter](aufgaben.md) mit den Erfahrungen aus der [Lerndokumentation](quellen/perplexity-lerndokumentation.pdf). Die Beispiele beziehen sich auf den vorhandenen Code.
+Diese Sammlung verbindet die Hinweise der [Aufgabenblätter](aufgaben.md) mit praktischen Erfahrungen aus dem Ticketsystem. Die Beispiele beziehen sich auf den vorhandenen Code; ausführliche Begriffserklärungen stehen in den [Lernnotizen](lernnotizen.md).
 
 ## 1. Eine kleine Frage nach der anderen beantworten
 
@@ -79,7 +79,7 @@ Mit einer Eingabe wie `SERVER` prüfen, ob die Normalisierung auf beiden Seiten 
 
 ## 11. Methoden auch im Menü sichtbar machen
 
-Eine korrekte Methode erzeugt noch keine sichtbare Funktion, wenn sie nie aufgerufen wird. Das fiel im Lernprotokoll bei `offeneTicketsProKunde()` auf: Der Aufruf samt Ausgabe musste in Menü 7 ergänzt werden.
+Eine korrekte Methode erzeugt noch keine sichtbare Funktion, wenn sie nie aufgerufen wird. Ein Beispiel aus dem Projekt ist `offeneTicketsProKunde()`: Der Aufruf samt Ausgabe musste in Menü 7 ergänzt werden.
 
 Als Muster eine bereits verwendete Auswertungsmethode in `Main` suchen. Bei einem neuen Menüfall auch Überschrift, Eingabe, Methodenaufruf und Rückkehr zur Menüschleife kontrollieren. Die bereits belegten Nummern 8 und 9 bei Teil 2 berücksichtigen.
 
@@ -108,10 +108,10 @@ $env:JAVA_HOME = 'C:\Program Files\Java\jdk-25'
 ./scripts/javadoc.ps1
 ```
 
-Die `Input length = 1`-Ursachen im Lernchat waren Vermutungen. Beim tatsächlichen Repository-Test funktionierte Javadoc auch im Benutzerpfad mit Umlaut. Erst die konkrete Fehlerursache prüfen, bevor globale Einstellungen geändert werden.
+Bei `Input length = 1` sind mögliche Ursachen zunächst zu prüfen. Beim tatsächlichen Repository-Test funktionierte Javadoc auch im Benutzerpfad mit Umlaut. Erst die konkrete Fehlerursache prüfen, bevor globale Einstellungen geändert werden.
 
 ## 15. Lernzeit realistisch betrachten
 
-Die 40 Minuten für D1 sind ein Richtwert. Im Lernprotokoll wird dafür fast ein halber Schultag genannt, weil jede Methode erneut verstanden und beschrieben werden musste. Dieses Wiederholen gehört zum Lernen.
+Die 40 Minuten für D1 sind ein Richtwert. Bei der Bearbeitung wurde dafür fast ein halber Schultag benötigt, weil jede Methode erneut verstanden und beschrieben werden musste. Dieses Wiederholen gehört zum Lernen.
 
 Für den nächsten Durchlauf hilft eine feste Routine: Eingabe – Verarbeitung – Ergebnis notieren, kurz dokumentieren, kompilieren und ein Beispiel ausführen. Im [Projektbericht](projektbericht.md) steht, wie sich diese Erfahrung auf das weitere Vorgehen übertragen lässt.

@@ -84,7 +84,7 @@ Mit Menü 3 wird zuerst Ticket #2 erledigt. Danach zeigt Menü 7 fünf offene Ti
 - [Tipps und Tricks aus dem Projekt](doku/tipps-und-tricks.md)
 - [Aufgabenstand und Zuordnung zum Code](doku/aufgabenstatus.md)
 - [Roadmap mit Meilensteinen](ROADMAP.md)
-- [Lernnotizen aus der Perplexity-Dokumentation](doku/lernnotizen.md)
+- [Lernnotizen zu Java und dem Ticketsystem](doku/lernnotizen.md)
 - [Architektur und Klassendiagramm](doku/architektur.md)
 - [Testprotokoll mit echten Ergebnissen](doku/testprotokoll.md)
 - [Quellen, Dateinamen und Einschränkungen](doku/quellen/README.md)
@@ -112,6 +112,6 @@ Die [Roadmap](ROADMAP.md) führt die offenen Aufgaben D1/D2, E1–E4 und T1/T2 m
 
 ## Herkunft und Mitarbeit
 
-Das Ausgangsmaterial nennt Christopher Partridge für `Ticket`, `Beispieldaten` und das Menügerüst sowie Hermann Zimmermann für die Bearbeitung. Diese Hinweise bleiben erhalten. Die PDFs liegen mit Quellenzuordnung bei; die Perplexity-Unterhaltung wird als Lernprotokoll verwendet und mit dem aktuellen Code abgeglichen. Die Repository-Dokumentation wurde mit KI-Unterstützung strukturiert.
+Das Ausgangsmaterial nennt Christopher Partridge für `Ticket`, `Beispieldaten` und das Menügerüst sowie Hermann Zimmermann für die Bearbeitung. Diese Hinweise bleiben erhalten. Die beiden Aufgabenblätter liegen mit Quellenzuordnung bei. Eigenständige Lernnotizen erklären die Konzepte anhand des aktuellen Codes. Die Repository-Dokumentation wurde mit KI-Unterstützung strukturiert.
 
 Es wurde keine neue Lizenz vergeben. Eine öffentliche Ablage ist keine pauschale Freigabe der enthaltenen Fremdmaterialien. Hinweise für weitere Änderungen stehen in [CONTRIBUTING.md](CONTRIBUTING.md).
