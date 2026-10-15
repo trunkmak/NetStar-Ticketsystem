@@ -1,0 +1,22 @@
+# Generated build output
+/build/
+/out/
+/bin/
+/target/
+*.class
+*.log
+
+# Local IDE configuration
+/.idea/
+*.iml
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets and duplicate archives
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.zip

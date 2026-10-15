@@ -1,0 +1,56 @@
+
+=== NetStar Ticketsystem ===
+1  Alle Tickets anzeigen
+2  Neues Ticket anlegen
+3  Naechstes Ticket erledigen
+4  Letzte Erledigung rueckgaengig
+5  Tickets pro Bearbeiter
+6  Alle Kunden
+7  Auswertungen
+8  Tickets suchen
+9  Erstes kritisches Ticket eines Bearbeiters
+0  Beenden
+Auswahl: === AUSWERTUNGEN ===
+
+Offene Tickets: 6
+
+Kritische offene Titel:
+[Mailserver nicht erreichbar, Backup schlaegt fehl]
+
+Alle offenen Tickets:
+- VPN-Verbindung bricht ab (Anna Berger) 
+- Mailserver nicht erreichbar (Tom Weber) 
+- Neuen Drucker einrichten (Anna Berger) 
+- Backup schlaegt fehl (Lena Fischer) 
+- Software-Lizenz abgelaufen (Anna Berger) 
+- Firewall-Regel anpassen (Lena Fischer) 
+
+Drei dringendste offene Tickets:
+#2   P1  Mailserver nicht erreichbar        Schmidt & Soehne     Tom Weber     OFFEN
+#5   P1  Backup schlaegt fehl               Schmidt & Soehne     Lena Fischer  OFFEN
+#1   P2  VPN-Verbindung bricht ab           Mueller Logistik     Anna Berger   OFFEN
+
+Anzahl Tickets pro Bearbeiter:
+{Lena Fischer=3, Anna Berger=3, Tom Weber=4}
+
+Durchschnittliche Prioritaet: 2.3
+Offene Tickets pro Kunde:
+{Baeckerei Hoffmann=1, Mueller Logistik=3, Schmidt & Soehne=2}
+
+Titel von Mueller Logistik:
+[Firewall-Regel anpassen, Neuen Drucker einrichten, VPN-Verbindung bricht ab]
+
+Hat Mueller Logistik ein kritisches offenes Ticket?: false
+
+=== NetStar Ticketsystem ===
+1  Alle Tickets anzeigen
+2  Neues Ticket anlegen
+3  Naechstes Ticket erledigen
+4  Letzte Erledigung rueckgaengig
+5  Tickets pro Bearbeiter
+6  Alle Kunden
+7  Auswertungen
+8  Tickets suchen
+9  Erstes kritisches Ticket eines Bearbeiters
+0  Beenden
+Auswahl: Programm beendet.

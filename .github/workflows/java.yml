@@ -1,0 +1,30 @@
+name: Java-Projekt pruefen
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - name: Kompilieren
+        run: javac -encoding UTF-8 -d build/classes src/*.java
+      - name: Konsolenstart und Auswertung pruefen
+        shell: bash
+        run: |
+          printf '7\n0\n' | java -cp build/classes Main > build/ausgabe.txt
+          grep -F 'Offene Tickets: 6' build/ausgabe.txt
+          grep -F 'Durchschnittliche Prioritaet: 2.3' build/ausgabe.txt
+          grep -F 'Programm beendet.' build/ausgabe.txt
+      - name: API-Dokumentation erzeugen
+        run: javadoc -quiet -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 -d build/javadoc -sourcepath src src/TicketSystem.java src/Auswertung.java
