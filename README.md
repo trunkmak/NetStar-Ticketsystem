@@ -79,6 +79,9 @@ Mit Menü 3 wird zuerst Ticket #2 erledigt. Danach zeigt Menü 7 fünf offene Ti
 
 ## Dokumentation und Lernen
 
+- [Alle 27 Aufgaben aus beiden Aufgabenblättern mit Prüfwerten](doku/aufgaben.md)
+- [Mein Vorgehen und was ich gelernt habe](doku/projektbericht.md)
+- [Tipps und Tricks aus dem Projekt](doku/tipps-und-tricks.md)
 - [Aufgabenstand und Zuordnung zum Code](doku/aufgabenstatus.md)
 - [Roadmap mit Meilensteinen](ROADMAP.md)
 - [Lernnotizen aus der Perplexity-Dokumentation](doku/lernnotizen.md)
@@ -94,6 +97,12 @@ javadoc -encoding UTF-8 -docencoding UTF-8 -charset UTF-8 -d doku/api -sourcepat
 ```
 
 PowerShell: `./scripts/javadoc.ps1`. Aktuell entsteht eine Warnung zum undokumentierten Standardkonstruktor von `TicketSystem`; D1 ist deshalb noch teilweise offen. Der vorhandene Undo-Kommentar beschreibt noch eine FIFO-Queue und muss an die PriorityQueue angepasst werden.
+
+## Mein Lernweg
+
+Die Arbeit am Projekt verbindet Collection-Verwaltung, schrittweise Stream-Auswertungen, Suchfunktionen und die Dokumentation der eigenen Methoden. Ein besonders greifbarer Lernpunkt war Javadoc: Jede Methode erneut verstehen und ihre Eingabe, Verarbeitung und ihr Ergebnis verständlich formulieren.
+
+Der [Projektbericht in der Ich-Form](doku/projektbericht.md) beschreibt das Vorgehen, konkrete Schwierigkeiten und die Lernerfahrungen anhand des dokumentierten Verlaufs. Die [Tipps und Tricks](doku/tipps-und-tricks.md) machen daraus Hilfen für die nächste Aufgabe: kleine Schritte, passende Prüfwerte, leere Ergebnisse behandeln und Kommentare nach Änderungen mitprüfen.
 
 ## Nächste Schritte
 

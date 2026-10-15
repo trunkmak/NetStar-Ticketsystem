@@ -86,3 +86,5 @@ Vorgehen für die nächste Fehlermeldung: genaue Meldung lesen, verwendetes Werk
 4. Danach Sortierung, Statistik und Ranking in kleinen Schritten ergänzen.
 
 Die [Roadmap](../ROADMAP.md) enthält die dazugehörigen Issues und Abschlusskriterien.
+
+Für den Zusammenhang mit den Unterrichtsaufgaben: [Aufgabenleitfaden](aufgaben.md). Zum persönlichen Rückblick: [Mein Vorgehen und meine Lernerfahrungen](projektbericht.md). Praktische Hilfen stehen unter [Tipps und Tricks](tipps-und-tricks.md).

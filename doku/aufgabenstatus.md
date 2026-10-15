@@ -2,6 +2,8 @@
 
 Abgleich vom **15.10.2026** gegen Quellcode und die [Originalquellen](quellen/README.md). „Erledigt“ bezeichnet den belegten Programm- oder Dokumentationsstand, keine Abnahme durch die Lehrkraft. Die Funktionsprüfung ist im [Testprotokoll](testprotokoll.md) dokumentiert.
 
+Die vollständige [Aufgabenübersicht mit Arbeitsaufträgen und Prüfwerten](aufgaben.md) ergänzt diese Statustabelle. [Projektbericht](projektbericht.md) und [Tipps und Tricks](tipps-und-tricks.md) beschreiben das Vorgehen und die Lernerfahrungen.
+
 ## Tagesprojekt
 
 Quelle: Tagesprojekt S. 2–3, ergänzende Regeln S. 4.

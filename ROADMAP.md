@@ -4,6 +4,8 @@ Stand **15.10.2026**. Der vorhandene Stand erfüllt A1–B7 einschließlich der 
 
 Die drei Meilensteine gliedern die noch offenen Aufgabenteile. Es sind bewusst keine Termine erfunden. Laut Bonusblatt genügt zunächst mindestens eine gewählte Aufgabe je Bereich; diese Roadmap bietet die vollständige Auswahl an.
 
+Die [vollständigen Aufgabenbeschreibungen mit Prüfwerten](doku/aufgaben.md) dienen als Arbeitsleitfaden. [Tipps und Tricks](doku/tipps-und-tricks.md) und der [Projektbericht](doku/projektbericht.md) halten Erfahrungen aus der bisherigen Bearbeitung fest.
+
 ## [M1 – Dokumentation abschließen](https://github.com/trunkmak/NetStar-Ticketsystem/milestone/1)
 
 D1 und D2 vervollständigen. D3 (echtes Testprotokoll) und D4 (README) sind bei der Repository-Einrichtung erledigt.
